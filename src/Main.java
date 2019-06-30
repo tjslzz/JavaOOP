@@ -1,4 +1,6 @@
 import animals.Tiger;
+import chicken_traffic.Chicken;
+import chicken_traffic.Traffic;
 import model.Student;
 import printer.BlackPrinter;
 import printer.ColorPrinter;
@@ -30,6 +32,14 @@ public class Main {
 
         BlackPrinter blackPrinter = new BlackPrinter();
         print(blackPrinter);
+
+
+        /**************************************************************************************************************/
+        Chicken chicken = new Chicken();
+        chicken.buy(100,100);
+
+        Traffic traffic = new Traffic();
+        traffic.travle(500);
     }
 
     public static void print(ColorPrinter colorPrinter){
